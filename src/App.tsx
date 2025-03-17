@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import juiceData from './data/juices.ts';
-import JuiceCard from './components/JuiceCard.tsx';
+import juiceData from './data/juices';
+import JuiceCard from './components/JuiceCard';
 import { db, collection, addDoc } from "./firebase/firebaseConfig.js";
 
 const App: React.FC = () => {
